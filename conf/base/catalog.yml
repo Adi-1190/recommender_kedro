@@ -20,3 +20,8 @@ top_20:
 processed_data:
   type: pickle.PickleDataSet
   filepath: data/02_intermediate/processed_data.pq
+
+svd_algo:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/svd_algo.pickle
+  versioned: true
