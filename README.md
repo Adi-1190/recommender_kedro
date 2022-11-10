@@ -1,5 +1,6 @@
-# Recommender_Kedro
+# Movie Recommender_Kedro
 
+#### Refer to [Medium Article](https://medium.com/@adityasingh_10318/ml-engineering-kedro-694009eda529) for details about project 
 ## Overview
 
 This is your new Kedro project, which was generated using `Kedro 0.18.3`.
