@@ -2,3 +2,21 @@
 #
 # Documentation for this file format can be found in "The Data Catalog"
 # Link: https://kedro.readthedocs.io/en/stable/data/data_catalog.html
+
+ratings:
+  # data info
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/kafka_log-movielog6_stream_processed(initial).csv
+
+  # load arguments
+  load_args:
+    names: [ 'time', 'user_id','type','movie_id', 'rating']
+
+
+top_20:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/top_20.pq
+
+processed_data:
+  type: pickle.PickleDataSet
+  filepath: data/02_intermediate/processed_data.pq
